@@ -8,14 +8,23 @@ body {
 .container {
     color: #B9B9B9;
     font-size: 1em; 
+    background-image: url(images/homelab_2.png);
+    text-align: center;
 }
 header {
+    justify-content: center;
+}
+header:h1 {
     font-size: 1.5em;
     color: #BFBFBF;
 }/*end */
 /* class for profile pictures */
 .profile {
-
+    display: block;
+    border-style: none;
+    border-radius: 100%;
+    filter: grayscale(0);
+    align-content: center;
 }
 /* week 2 - image grayscale on hover */
 .profile:hover {
@@ -23,6 +32,5 @@ header {
     border-style: none;
     border-radius: 100%;
     transition: background-size 0.3s ease;
-    align-content: center;
 }
 /* end */
