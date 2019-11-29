@@ -40,12 +40,15 @@ section {
 .landing-page {
     font-family: Helvetica, sans-serif;
 }
-/*nav{
-
+nav{
+    margin: auto;
 }
 ul {
+    list-style-type: none;
+    overflow:auto;
+    white-space: nowrap;
 }
-li {
+/*li {
 }
 footer {
 
