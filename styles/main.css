@@ -4,11 +4,11 @@ body {
     
 }
 /*end*/
-/* set font colours, h1, and sizing */
+/* set font colours, sizing, alignment */
 .container {
     color: #B9B9B9;
     font-size: 1em; 
-    background-image: url(images/homelab_2.png);
+    background-image: url(../images/homelab_2.png);
     text-align: center;
 }
 header {
@@ -20,11 +20,10 @@ header:h1 {
 }/*end */
 /* class for profile pictures */
 .profile {
-    display: block;
     border-style: none;
     border-radius: 100%;
     filter: grayscale(0);
-    align-content: center;
+    margin: auto;
 }
 /* week 2 - image grayscale on hover */
 .profile:hover {
