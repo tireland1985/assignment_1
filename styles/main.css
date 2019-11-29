@@ -34,3 +34,20 @@ header:h1 {
     transition: background-size 0.3s ease;
 }
 /* end */
+section {
+    display: block;
+    align-content: center;
+}
+.landing-page {
+    font-family: Helvetica, sans-serif;
+}
+/*nav{
+
+}
+ul {
+}
+li {
+}
+footer {
+
+}*/
