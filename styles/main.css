@@ -1,5 +1,12 @@
 body {
     background-color: #151D32;
+    
+}
+.container {
     color: #B9B9B9;
-    font-size: 1em;
+    font-size: 1em; 
+}
+header:h1 {
+    font-size: 1.5em;
+    color: #BFBFBF;
 }
