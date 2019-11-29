@@ -1,12 +1,28 @@
+/* reused from assignment 0 */
 body {
     background-color: #151D32;
     
 }
+/*end*/
+/* set font colours, h1, and sizing */
 .container {
     color: #B9B9B9;
     font-size: 1em; 
 }
-header:h1 {
+header {
     font-size: 1.5em;
     color: #BFBFBF;
+}/*end */
+/* class for profile pictures */
+.profile {
+
 }
+/* week 2 - image grayscale on hover */
+.profile:hover {
+    filter: grayscale(1);
+    border-style: none;
+    border-radius: 100%;
+    transition: background-size 0.3s ease;
+    align-content: center;
+}
+/* end */
