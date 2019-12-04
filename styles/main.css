@@ -46,10 +46,6 @@ header {
     transition: background-size 0.3s ease;
 }
 /* end */
-section {
-    align-content: center;
-}
-
 nav {
     margin-left: auto;
     margin-right: auto;
