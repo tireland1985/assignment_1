@@ -36,7 +36,8 @@ header {
     border-radius: 100%;
     filter: grayscale(0);
     margin: auto;
-    order:3;
+    display: flex;
+    order: 3;
 }
 /* week 2 - image grayscale on hover */
 .profile:hover {
@@ -57,7 +58,7 @@ nav {
     overflow: auto;
     list-style-type: none;
     white-space: nowrap;
-    display: flex;;
+    display: flex;
   }
 
   li {
@@ -91,9 +92,9 @@ nav {
   /* End W5 code block */
   .main {
     font-family: Helvetica, sans-serif;
-    display:flex;
+    display: flex;
     justify-content: center;
-    order:2;
+    order: 2;
 }
 /*footer {
 
