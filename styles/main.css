@@ -202,9 +202,11 @@ body
 header {
     font-size: 1.7em;
     color: #BFBFBF;
-    font-family: Helvetica, Verdana, sans-serif;
+    font-family: 'Big Shoulders Text', cursive;
     justify-content: center;
-}/*end */
+    letter-spacing: 0.1em;
+}
+/*end */
 /* class for profile pictures */
 .profile {
     border-style: none;
@@ -262,7 +264,6 @@ nav {
   }
   /* End W5 code block */
   .main {
-    font-family: Helvetica, sans-serif;
     justify-content: center;
 }
 p {
