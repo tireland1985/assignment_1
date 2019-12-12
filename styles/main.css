@@ -35,7 +35,9 @@ body
   /* make it look decent enough */
   background: #151d32;
   color: #B9B9B9;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-family: 'Big Shoulders Text', cursive;
+  letter-spacing: 0.1em;
+
 }
 
 #menuToggle
@@ -114,7 +116,6 @@ body
 {
   transform-origin: 0% 100%;
 }
-
 /* 
  * Transform all the slices of hamburger
  * into a crossmark.
@@ -191,14 +192,6 @@ body
 @media (min-width:900px) {
 
 }
-/* reused from assignment 0 */
-/*body {
-    background-color: #151D32;
-    width: 100%;
-    height: 100%;
-    
-}*/
-/*end*/
 header {
     font-size: 1.7em;
     color: #BFBFBF;
