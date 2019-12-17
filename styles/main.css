@@ -25,7 +25,7 @@
     .index_row_4 { grid-area: 4 / 1 / 5 / 2; } 
     .index_row_5 { grid-area: 5 / 1 / 6 / 2; } 
 /* end grid generator */
-.body-portfolio { /*experimental - allow for separate "containers" and "body" on a per-page basis */
+.body-portfolio { /*experimental - allow for separate "containers" and "body" styling on a per-page basis */
   margin: 0;
   padding: 0;
   background-color: #151d32;
@@ -136,7 +136,40 @@
   letter-spacing: 0.1em;
 }
 .container_cv {
+  /* cssgrid-generator.netlify.com */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto repeat(5, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  align-items: start;
+  text-align: center;
+  border-top: 1px solid rgba(236, 113, 12, 0.26);
+  border-left: 1px solid rgba(236, 113, 12, 0.26);
+}
+.cv_left_1 { grid-area: 1 / 1 / 2 / 2; }
+.cv_left_2 { grid-area: 2 / 1 / 3 / 2; }
+.cv_left_3 { grid-area: 3 / 1 / 4 / 2; }
+.cv_left_4 { grid-area: 4 / 1 / 5 / 2; }
+.cv_left_5 { grid-area: 5 / 1 / 6 / 2; }
+.cv_center_1 { grid-area: 1 / 2 / 2 / 3; }
+.cv_center_2 { grid-area: 2 / 2 / 3 / 3; }
+.cv_center_3 { grid-area: 3 / 2 / 4 / 3; }
+.cv_center_4 { grid-area: 4 / 2 / 5 / 3; }
+.cv_center_5 { grid-area: 5 / 2 / 6 / 3; }
+.cv_right_1 { grid-area: 1 / 3 / 2 / 4; }
+.cv_right_2 { grid-area: 2 / 3 / 3 / 4; }
+.cv_right_3 { grid-area: 3 / 3 / 4 / 4; }
+.cv_right_4 { grid-area: 4 / 3 / 5 / 4; }
+.cv_right_5 { grid-area: 5 / 3 / 6 / 4; }
 
+.h1-cv {
+  font-weight: 400;
+  font-size: 2em;
+}
+.h2-cv {
+  font-weight: 300;
+  font-size: 1.5em;
 }
 .body-contact {
   margin: 0;
@@ -148,7 +181,12 @@
   letter-spacing: 0.1em;
 }
 .container_contact {
-
+  /* cssgrid-generator.netlify.com */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
 }
 /*
  * Made by Erik Terwan
