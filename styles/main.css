@@ -64,6 +64,82 @@
 .li-nav:last-child {
   border-right: none;
 }
+.hr-portfolio {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid rgba(236, 113, 12, 0.26);
+}
+.gallery-item {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: all .3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.pfimage { 
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gallery-item:hover .pfimage {
+  filter: grayscale(1);
+}
+
+.gallery-item:hover .middle {
+  opacity: 1;
+}
+
+.gallery-item:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.pftext {
+  color: white;
+  font-size: 2.5em;
+  padding: 16px 32px;
+}
+
+@media (max-width: 500px) {
+  .gallery-item,.body-portfolio {
+      max-width: 30%;
+      grid-column: 2;
+      font-family: Oswald, sans-serif;
+      text-align: left;
+  }
+  div.container_portfolio, h1.h1-portfolio {
+      text-align: left;
+      margin-left: 2em;
+  }
+
+  div.pftext {
+      font-size: 2.5em;
+  }
+}
 .body-cv {
   margin: 0;
   padding: 0;
