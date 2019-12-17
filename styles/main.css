@@ -1,3 +1,13 @@
+.body-index
+{
+  margin: 0;
+  padding: 0;
+  background: #151d32;
+  color: #B9B9B9;
+  font-family: 'Big Shoulders Text', cursive;
+  letter-spacing: 0.1em;
+
+}
   /* https://cssgrid-generator.netlify.com/ */
   .container_index { 
     display: grid; 
@@ -13,30 +23,9 @@
     .index_row_3 { grid-area: 3 / 1 / 4 / 2; } 
     .index_row_4 { grid-area: 4 / 1 / 5 / 2; } 
     .index_row_5 { grid-area: 5 / 1 / 6 / 2; } 
-    
-    /*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
 
-body
-{
-  margin: 0;
-  padding: 0;
-  
-  /* make it look decent enough */
-  background: #151d32;
-  color: #B9B9B9;
-  font-family: 'Big Shoulders Text', cursive;
-  letter-spacing: 0.1em;
 
-}
+
 
 #menuToggle
 {
@@ -246,10 +235,6 @@ nav {
   /* End W5 code block */
   .index_main {
     justify-content: center;
-}
-p {
-  font-family: 'Big Shoulders Text', cursive;
-  letter-spacing: 0.1em;
 }
 @media (min-width:320px) {
   body {
