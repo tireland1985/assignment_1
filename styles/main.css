@@ -168,7 +168,7 @@ body
 #menu li
 {
   padding: 10px 0;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 /*
@@ -250,4 +250,20 @@ nav {
 p {
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
+}
+@media (min-width:320px) {
+  body {
+    font-size: 0.8em;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width:600px) {
+  body {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
 }
