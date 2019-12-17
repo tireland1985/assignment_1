@@ -267,7 +267,7 @@ nav {
     color: #666;
   }
 
-  .active a {
+  .active {
     font-weight: bold;
     color: aquamarine;
   }
