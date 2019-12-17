@@ -382,6 +382,9 @@ nav {
   .index_main {
     justify-content: center;
 }
+.footer {
+  text-align: center;  
+}
 @media (min-width:320px) {
   body {
     font-size: 0.8em;
