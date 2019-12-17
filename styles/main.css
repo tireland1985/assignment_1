@@ -438,7 +438,7 @@ nav {
 }
 @media (max-width:799px) and (min-width:401px) {
   .gallery-item, .body-portfolio {
-    max-width: 30%;
+    max-width: 20%;
     grid-column: 2;
     text-align: left;
   }
