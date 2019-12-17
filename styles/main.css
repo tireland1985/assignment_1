@@ -6,7 +6,6 @@
   color: #B9B9B9;
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
-
 }
   /* https://cssgrid-generator.netlify.com/ */
   .container_index { 
@@ -23,10 +22,39 @@
     .index_row_3 { grid-area: 3 / 1 / 4 / 2; } 
     .index_row_4 { grid-area: 4 / 1 / 5 / 2; } 
     .index_row_5 { grid-area: 5 / 1 / 6 / 2; } 
+.body-portfolio {
+  margin: 0;
+  padding: 0;
+  background: #151d32;
+  color: #B9B9B9;
+  font-family: 'Big Shoulders Text', cursive;
+  letter-spacing: 0.1em;
+}
+.container_portfolio {
 
+}
+.body-cv {
+  margin: 0;
+  padding: 0;
+  background: #151d32;
+  color: #B9B9B9;
+  font-family: 'Big Shoulders Text', cursive;
+  letter-spacing: 0.1em;
+}
+.container_cv {
 
-
-
+}
+.body-contact {
+  margin: 0;
+  padding: 0;
+  background: #151d32;
+  color: #B9B9B9;
+  font-family: 'Big Shoulders Text', cursive;
+  letter-spacing: 0.1em;
+}
+.container_contact {
+  
+}
 #menuToggle
 {
   display: block;
