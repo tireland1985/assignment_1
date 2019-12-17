@@ -3,7 +3,8 @@
 {
   margin: 0;
   padding: 0;
-  background: #151d32 url("images/back.gif");
+  background-color: #151d32;
+  background-image:  url("http://timireland.uk/images/back.gif");
   color: #B9B9B9;
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
@@ -27,7 +28,8 @@
 .body-portfolio { /*experimental - allow for separate "containers" and "body" on a per-page basis */
   margin: 0;
   padding: 0;
-  background: #151d32;
+  background-color: #151d32;
+  background-image:  url("http://timireland.uk/images/back.gif");
   color: #B9B9B9;
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
@@ -127,7 +129,8 @@
 .body-cv {
   margin: 0;
   padding: 0;
-  background: #151d32;
+  background-color: #151d32;
+  background-image:  url("http://timireland.uk/images/back.gif");  
   color: #B9B9B9;
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
@@ -138,7 +141,8 @@
 .body-contact {
   margin: 0;
   padding: 0;
-  background: #151d32;
+  background-color: #151d32;
+  background-image:  url("http://timireland.uk/images/back.gif");  
   color: #B9B9B9;
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
