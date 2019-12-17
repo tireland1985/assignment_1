@@ -124,16 +124,19 @@
   padding: 16px 32px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .gallery-item,.body-portfolio {
       max-width: 30%;
       grid-column: 2;
-      font-family: Oswald, sans-serif;
       text-align: left;
   }
   div.container_portfolio, h1.h1-portfolio {
       text-align: left;
       margin-left: 2em;
+  }
+  nav.nav-nohamburger {
+    text-align: left;
+    font-size: 0.9em;
   }
 
   div.pftext {
@@ -386,15 +389,15 @@ nav {
   text-align: center;  
 }
 @media (min-width:320px) {
-  body {
+  .body-index, .body-contact, .body-cv {
     font-size: 0.8em;
   }
   h1 {
     font-size: 1.2em;
   }
 }
-@media (min-width:600px) {
-  body {
+@media (min-width:800px) {
+  .body-index, .body-contact, .body-cv {
     font-size: 1em;
   }
   h1 {
@@ -402,6 +405,9 @@ nav {
   }
 }
 @media (min-width:900px){
+ .body-index, .body-contact, .body-cv {
+   font-size: 1.1em;
+ }
   h1 {
     font-size: 1.7em;
   }
