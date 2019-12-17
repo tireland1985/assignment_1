@@ -239,19 +239,18 @@ nav {
     border-right: none;
   }*/
  /* link/url styling */
-  li a {
+  a {
     text-decoration: none;
     color: aqua;
-    font: 1.5em Helvetica, Verdana, sans-serif;
     text-transform: lowercase;
     transition: all 0.5s ease;
   }
  
-  li a:hover {
+  a:hover {
     color: #666;
   }
 
-  li.active a {
+  .active a {
     font-weight: bold;
     color: aquamarine;
   }
