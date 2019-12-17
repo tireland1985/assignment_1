@@ -37,6 +37,33 @@
   width: 96rem;
   margin: 2rem auto;
 }
+.h1-portfolio {
+  font-weight: 400;
+  text-align: center;
+  font-size: 3em;
+}
+/* alternate nav bar - problems with hamburger on portfolio page */
+.nav-nohamburger {
+  margin: auto;
+  text-align: center;
+}
+.ul-nav {
+  overflow: auto;
+    list-style-type: none;
+    white-space: nowrap;
+    display: block;
+}
+.li-nav {
+  height: 25px;
+  margin-right: auto;
+  display: inline-block;
+  border-right: 1px solid #aaa;
+  font-size: 1.7em;
+  padding: 0 20px;
+}
+.li-nav:last-child {
+  border-right: none;
+}
 .body-cv {
   margin: 0;
   padding: 0;
