@@ -72,7 +72,7 @@
   border: 0;
   border-top: 2px solid rgba(236, 113, 12, 0.26);
 }
-.gallery-item {
+.portfolio_gallery-item {
   max-width: 100%;
   border-radius: 5px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -81,7 +81,7 @@
   position: relative;
 }
 
-.gallery {
+.portfolio_gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1.5rem;
@@ -108,15 +108,15 @@
   text-align: center;
 }
 
-.gallery-item:hover .portfolio_image {
+.portfolio_gallery-item:hover .portfolio_image {
   filter: grayscale(1);
 }
 
-.gallery-item:hover .portfolio_middle {
+.portfolio_gallery-item:hover .portfolio_middle {
   opacity: 1;
 }
 
-.gallery-item:hover {
+.portfolio_gallery-item:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
 }
 
@@ -400,7 +400,7 @@ nav {
 }
 /* media query from CSS Grid class challenge, modified 'slightly' */
 @media (max-width: 400px) {
-  .gallery-item, .body-portfolio {
+  .portfolio_gallery-item, .body-portfolio {
       max-width: 10%;
       grid-column: 1;
       text-align: left;
@@ -422,7 +422,7 @@ nav {
   }
 }
 @media (max-width:799px) and (min-width:401px) {
-  .gallery-item, .body-portfolio {
+  .portfolio_gallery-item, .body-portfolio {
     max-width: 20%;
     grid-column: 2;
     text-align: left;
@@ -444,7 +444,7 @@ div.portfolio_text {
 }
 }
 @media (min-width:800px) and (max-width:1000px){
-  .gallery-item, .body-portfolio {
+  .portfolio_gallery-item, .body-portfolio {
     max-width: 40%;
     grid-column: 2;
     text-align: left;
