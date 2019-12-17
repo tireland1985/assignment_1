@@ -186,7 +186,22 @@ body
       font-family: 'Big Shoulders Text', cursive;
       letter-spacing: 0.1em;
     }
+/* link/url styling */
+a {
+  text-decoration: none;
+  color: aqua;
+  text-transform: lowercase;
+  transition: all 0.5s ease;
+}
 
+a:hover {
+  color: #666;
+}
+
+.active a {
+  font-weight: bold;
+  color: aquamarine;
+}
 }
 @media (min-width:600px) {
 
