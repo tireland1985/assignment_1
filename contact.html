@@ -72,8 +72,8 @@
 		<!-- CONTACT FORM -->
 		<div class="contact_me">
 			<h3>E-mail Me</h3>
-
-			<form id="contact-me">
+      <!-- use formspree.io to actually email the form -->
+			<form id="contact-me" action="https://formspree.io/xnqjqyyp" method="POST">
 
 				<p>
 					<label>Your Name</label>
@@ -87,7 +87,7 @@
 
 				<p>
 					<label>Your E-mail Address</label>
-					<input type="email" name="email" id="email" required>
+					<input type="email" name="_replyto" id="email" required>
 				</p>
 
 				<p>
@@ -101,7 +101,7 @@
 				</p>
 
 				<p class="full">
-					<button type="submit">Submit</button>
+          <button type="submit">Submit</button>
 				</p>
 
 			</form>
