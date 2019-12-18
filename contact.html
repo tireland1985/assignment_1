@@ -12,8 +12,49 @@
     <script src="https://kit.fontawesome.com/49d5ff7e71.js" crossorigin="anonymous"></script>
 </head>
 <body class="body-contact"><!-- experimental, using different "body" and "container" classes on each page -->
-    
-        <footer class="footer">
+    <div class="container_contact">
+            <div class="contact_row_1">
+                <header>
+                    <!--    Made by Erik Terwan    -->
+                    <!--   24th of November 2015   -->
+                    <!--        MIT License        -->
+                    <!-- modified from https://codepen.io/erikterwan/details/EVzeRP -->
+                        <nav>
+                            <div id="menuToggle">
+                              <!--
+                              A fake / hidden checkbox is used as click reciever,
+                              so you can use the :checked selector on it.
+                              -->
+                              <input type="checkbox" />
+                              
+                              <!--
+                              Some spans to act as a hamburger.
+                              
+                              They are acting like a real hamburger,
+                              not that McDonalds stuff.
+                              -->
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                              
+                              <!--
+                              Too bad the menu has to be inside of the button
+                              but hey, it's pure CSS magic.
+                              -->
+                              <ul id="menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="cv.html">CV</a></li>
+                                <li class="active"><a href="contact.html">Contact</a></li>
+                              </ul>
+                            </div>
+                          </nav>
+                        </div>
+                          <!-- end of modified codepen -->
+                          <h1>Get in touch..</h1>
+                    </header>
+        <div class="contact_row_5"></div>
+            <footer class="footer">
                 <!-- fontawesome.com icons -->
               <p> <a href="https://github.com/tireland1985"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;
                   <a href="https://www.linkedin.com/in/tim-ireland-51508b196/"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;
@@ -21,5 +62,7 @@
                  <a href='mail&#116;o&#58;tim&#64;t%69%&#54;&#68;ir&#101;&#108;%61%&#54;&#69;%&#54;4&#46;uk'><i class="fas fa-envelope"></i></a>
               </p>
             </footer>
+        </div>
+    </div>
 </body>
 </html>
