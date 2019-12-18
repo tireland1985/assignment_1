@@ -566,6 +566,9 @@ nav {
   div.portfolio_text {
       font-size: 1.5em;
   }
+  .container_contact {
+    max-height: 300px;
+  }
   .footer {
     text-align: left;
   }
@@ -579,6 +582,9 @@ nav {
   div.container_portfolio, h1.h1-portfolio {
     text-align: left;
     margin-left: 2em;
+}
+.container_contact {
+  max-height: 300px;
 }
 nav.nav-nohamburger {
   text-align: left;
@@ -610,6 +616,9 @@ nav.nav-nohamburger {
 div.portfolio_text {
     font-size: 2.5em;
 }
+.container_contact {
+  max-height: 300px;
+}
 .contact_form {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -637,6 +646,9 @@ div.portfolio_text {
 }
 }
 @media (min-width:1001px) {
+  .container_contact {
+    max-height: 400px;
+  }
   .contact_form {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -656,7 +668,7 @@ div.portfolio_text {
   
   .company-info h3,
   .company-info ul,
-  .brand {
+  .h1-contact {
     text-align: left;
   }
 }
