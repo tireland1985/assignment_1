@@ -199,6 +199,88 @@
   color: #B9B9B9;
   text-align: center;
   }
+  /* modified from https://codepen.io/movntains/pen/jpvyMJ */
+  .h1-contact{
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .h1-contact span {
+    color: #ffffff;
+  }
+  .contact_form {
+    box-shadow: 0 0 20px 0 rgba(57, 82, 163, 0.7);
+  }
+  .contact_form > * {
+    padding: 1em;
+  }
+  .company-info {
+    background: rgb(21, 38, 94);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  .company-info h3,
+.company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.contact_me {
+  background: rgb(15, 30, 80);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.ul_form {
+  list-style-type: none;
+}
+.contact_me form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact_me form label {
+  display: block;
+}
+
+.contact_me form p {
+  margin: 0;
+}
+
+.contact_me form .full {
+  grid-column: 1 / 3;
+}
+
+.contact_me form button,
+.contact_me form input,
+.contact_me form textarea {
+  width: 100%;
+  padding: 1em;
+  border: solid 1px #627EDC;
+  border-radius: 4px;
+}
+
+.contact_me form textarea {
+  resize: none;
+}
+
+.contact_me form button {
+  background: #627EDC;
+  border: 0;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  font-size: 1emx;
+  font-weight: bold;
+}
+
+.contact_me form button:hover,
+.contact_me form button:focus {
+  background: #3952a3;
+  color: #ffffff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+/* end codepen */
   .contact_row_1 { grid-area: 1 / 1 / 2 / 2; } 
   .contact_row_2 { grid-area: 2 / 1 / 3 / 2; } 
   .contact_row_3 { grid-area: 3 / 1 / 4 / 2; } 
@@ -427,7 +509,7 @@ nav {
 
 .footer {
   text-align: center;  
-}/* media queries - currentlt just change font sizes dependant on screen size */
+}/* media queries for responsive design */
 @media (min-width:320px) {
   .body-index, .body-contact, .body-cv {
     font-size: 0.7em;
@@ -528,7 +610,53 @@ nav.nav-nohamburger {
 div.portfolio_text {
     font-size: 2.5em;
 }
+.contact_form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.contact_form > * {
+  padding: 2em;
+}
+
+.company-info {
+  border-radius: 4px 0 0 4px;
+}
+
+.contact {
+  border-radius: 0 4px 4px 0;
+}
+
+.company-info h3,
+.company-info ul,
+.brand {
+  text-align: left;
+}
 .footer {
   text-align: left;
 }
+}
+@media (min-width:1001px) {
+  .contact_form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .contact_form > * {
+    padding: 2em;
+  }
+  
+  .company-info {
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .contact {
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .company-info h3,
+  .company-info ul,
+  .brand {
+    text-align: left;
+  }
 }
