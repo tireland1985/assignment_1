@@ -206,9 +206,6 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
-  .h1-contact span {
-    color: #ffffff;
-  }
   .contact_form {
     box-shadow: 0 0 20px 0 rgba(57, 82, 163, 0.7);
   }
