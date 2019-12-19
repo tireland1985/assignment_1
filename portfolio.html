@@ -14,19 +14,51 @@
 <!-- reused, with alterations from Week 6 Code challenge & Assignment 0 -->
 <body class="body-portfolio"><!-- experimental, using different "body" and "container" classes on each page -->
             <div class="container_portfolio">
+              <div class="portfolio_row_1">
+              <header>
                 <h1 class="h1-portfolio">My Portfolio:</h1>
-                <!-- Unresolvable issues with nav hamburger on this page so reverted to nav bar (menu was visible without clicking hamburger) -->
-                <nav class="nav-nohamburger">
-                        <ul class="ul-nav">
-                            <li class="li-nav"><a href="index.html">Home</a></li>
-                            <li class="li-nav active"><a href="portfolio.html">Portfolio</a></li>
-                            <li class="li-nav"><a href="cv.html">CV</a></li>
-                            <li class="li-nav"><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav> 
+
+                      <!--    Made by Erik Terwan    -->
+                      <!--   24th of November 2015   -->
+                      <!--        MIT License        -->
+                      <!-- modified from https://codepen.io/erikterwan/details/EVzeRP -->
+                          <nav>
+                              <div id="menuToggle">
+                                <!--
+                                A fake / hidden checkbox is used as click reciever,
+                                so you can use the :checked selector on it.
+                                -->
+                                <input type="checkbox" />
+                                
+                                <!--
+                                Some spans to act as a hamburger.
+                                
+                                They are acting like a real hamburger,
+                                not that McDonalds stuff.
+                                -->
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                
+                                <!--
+                                Too bad the menu has to be inside of the button
+                                but hey, it's pure CSS magic.
+                                -->
+                                <ul id="menu">
+                                  <li class="active"><a href="index.html">Home</a></li>
+                                  <li><a href="portfolio.html">Portfolio</a></li>
+                                  <li><a href="cv.html">CV</a></li>
+                                  <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                              </div>
+                            </nav>
+                            <!-- end of modified codepen -->
+                            </header> 
+              </div>    
               <hr class="hr-portfolio">
+        <main>
             <div class="portfolio_gallery">
-                <!-- some images hosted on my personal site -->
+                <!-- some images hosted externally -->
             <div class="portfolio_gallery-item">
                      <img src="http://timireland.uk/images/r6-rebuild.jpg" alt="Placeholder Image" class="portfolio_image">
             
@@ -82,6 +114,7 @@
                 </div>
             </div>
               </div>
+        </main>
               <hr class="hr-portfolio">
               <footer class="footer">
                   <!-- fontawesome.com icons -->
