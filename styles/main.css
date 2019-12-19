@@ -15,7 +15,7 @@
     display: grid; 
     grid-template-columns: 1fr; 
     grid-template-rows: repeat(5, 1fr); 
-    grid-column-gap: 0px;
+    column-gap: 0px;
     row-gap: 2px;
     color: #B9B9B9;
     text-align: center;
@@ -133,8 +133,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto repeat(5, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
+  column-gap: 2px;
+  row-gap: 2px;
   align-items: start;
   text-align: center;
 }/* Grid layout for cv.html - cv_left_1 is left column, row 1*/
@@ -182,8 +182,8 @@
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: repeat(3, 1fr); 
-  grid-column-gap: 0px;
-  grid-row-gap: 2px; 
+  column-gap: 0px;
+  row-gap: 2px; 
   color: #B9B9B9;
   text-align: center;
   } /* Grid layout: 3 rows */
