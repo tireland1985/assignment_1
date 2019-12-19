@@ -8,6 +8,9 @@
   letter-spacing: 0.1em;
 }
   /* https://cssgrid-generator.netlify.com/ */
+  /* CSS Grid for index.html */
+  /* <div>'s are intentionally named differently for per-page styling/ layout alterations */
+  /* specifically allowed for altering the height of certain rows without changing the layout of other pages in unwanted ways */
   .container_grid_rows { 
     display: grid; 
     grid-template-columns: 1fr; 
@@ -23,7 +26,7 @@
     .grid_row_4 { grid-area: 4 / 1 / 5 / 2; } 
     .grid_row_5 { grid-area: 5 / 1 / 6 / 2; } 
 /* end grid generator */
-.body-portfolio { /*experimental media query */
+.body-portfolio { /*experimental for media query */
   margin: 0;
   padding: 0;
   background-color: #151d32;
@@ -58,12 +61,13 @@
   margin-right: auto;
   display: inline-block;
   border-right: 1px solid #aaa;
-  font-size: 1.7em;
+  font-size: 1.45em;
   padding: 0 20px;
 }
 .li-nav:last-child {
   border-right: none;
 }
+/* end alternate nav */
 .hr-portfolio {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -124,28 +128,16 @@
   padding: 16px 32px;
 }
 
-.body-cv {
-  margin: 0;
-  padding: 0;
-  background-color: #151d32;
-  background-image:  linear-gradient(90deg, rgba(21, 29, 50, 0.9), rgba(74, 102, 175, 0.7)); 
-  color: #B9B9B9;
-  font-family: 'Big Shoulders Text', cursive;
-  letter-spacing: 0.1em;
-}
 .container_cv {
   /* cssgrid-generator.netlify.com */
+  /* CSS Grid for cv.html */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto repeat(6, 1fr);
+  grid-template-rows: auto repeat(5, 1fr);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   align-items: start;
   text-align: center;
-  /*border-radius: 5px;
-  border-top: 1px solid rgba(236, 113, 12, 0.26);
-  border-left: 1px solid rgba(236, 113, 12, 0.26);
-  */
 }
 .cv_left_1 { grid-area: 1 / 1 / 2 / 2; }
 .cv_left_2 { grid-area: 2 / 1 / 3 / 2; }
@@ -162,7 +154,7 @@
 .cv_right_3 { grid-area: 3 / 3 / 4 / 4; }
 .cv_right_4 { grid-area: 4 / 3 / 5 / 4; }
 .cv_right_5 { grid-area: 5 / 3 / 6 / 4; }
-
+/* h1 - h4 styling for cv.html */
 .h1-cv {
   font-weight: 400;
   font-size: 2em;
@@ -179,21 +171,15 @@
   font-weight: 150;
   
 }
-.cv_text {
+.cv_text { /* cv.html text-styling */
   font-size: 1em;
   text-align: left;
 }
-.body {
-  margin: 0;
-  padding: 0;
-  background-color: #151d32;
-  background-image:  linear-gradient(90deg, rgba(21, 29, 50, 0.9), rgba(74, 102, 175, 0.7)); 
-  color: #B9B9B9;
-  font-family: 'Big Shoulders Text', cursive;
-  letter-spacing: 0.1em;
-}
 .container_contact {
-  /* modified from container_index above */
+  /* CSS Grid for contact.html */
+  /* <div>'s are intentionally named differently for per-page styling/ layout alterations */
+  /* specifically allowed for altering the height of certain rows without changing the layout of other pages in unwanted ways */
+
   display: grid; 
   grid-template-columns: 1fr; 
   grid-template-rows: repeat(5, 1fr); 
@@ -202,13 +188,13 @@
   color: #B9B9B9;
   text-align: center;
   }
-  /* modified from https://codepen.io/movntains/pen/jpvyMJ */
-  .h1-contact{
-    text-align: center;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
+  .contact_row_1 { grid-area: 1 / 1 / 2 / 2; } 
+  .contact_row_2 { grid-area: 2 / 1 / 3 / 2; } 
+  .contact_row_3 { grid-area: 3 / 1 / 4 / 2; } 
+  .contact_row_4 { grid-area: 4 / 1 / 5 / 2; } 
+  .contact_row_5 { grid-area: 5 / 1 / 6 / 2; } 
+  /* Contact Form below, modified from https://codepen.io/movntains/pen/jpvyMJ */
+  
   .contact_form {
     box-shadow: 0 0 20px 0 rgba(57, 82, 163, 0.7);
   }
@@ -216,7 +202,7 @@
     padding: 1em;
   }
   .company-info {
-    background: /*rgb(21, 38, 94)*/#3d445c;
+    background: #3d445c;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
@@ -225,7 +211,7 @@
   margin: 0 0 1rem 0;
 }
 .contact_me {
-  background: /*rgb(15, 30, 80)*/#0a1d32;
+  background: #0a1d32;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
@@ -280,11 +266,6 @@
   transition: background-color 2s ease-out;
 }
 /* end codepen */
-  .contact_row_1 { grid-area: 1 / 1 / 2 / 2; } 
-  .contact_row_2 { grid-area: 2 / 1 / 3 / 2; } 
-  .contact_row_3 { grid-area: 3 / 1 / 4 / 2; } 
-  .contact_row_4 { grid-area: 4 / 1 / 5 / 2; } 
-  .contact_row_5 { grid-area: 5 / 1 / 6 / 2; } 
 /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -327,7 +308,7 @@
   display: block;
   width: 40px;
   height: 32px;
-  position: absolute; /* cant change - menu not clickable if you do */
+  position: absolute; /* cant change, tried but menu stops working  -tim */
   top: -7px;
   left: -5px;
   
@@ -338,7 +319,6 @@
   
   -webkit-touch-callout: none;
 }
-
 /*
  * Just a quick hamburger
  */
@@ -405,7 +385,7 @@
  */
 #menu
 {
-  position: absolute;
+  position: absolute; /* I know brief says no absolute positioning, but havent found a hamburger nav that doesnt  use it.. -tim */
   width: 100px;
   margin: -100px 0 0 -50px;
   padding: 50px;
@@ -447,16 +427,11 @@ a {
   text-transform: lowercase;
   transition: all 0.5s ease;
 }
-
 a:hover {
   color: #666;
 }
-.notransform {
+.notransform { /* remove text-transform: for certain hyperlinks */
 text-transform: none;  
-}
-.active a {
-  font-weight: bold;
-  color: aquamarine;
 }
 header {
     color: #BFBFBF;
@@ -468,7 +443,7 @@ header {
   text-align: center;
 }
 /*end */
-/* class for profile pictures */
+/* class for image styling */
 .profile {
     border-style: none;
     border-radius: 100%;
@@ -498,7 +473,7 @@ nav {
     color: #666;
   }
 
-  .active {
+  .active { /* styling for "active link" in navigation (current page) */
     font-weight: bold;
     color: aquamarine;
   }
@@ -523,8 +498,9 @@ nav {
     font-size: 1.2em;
   }
 }
+/* breakpoint for all pages */
 @media (min-width:500px) {
-  .body {
+  .body, .body-portfolio {
     font-size: 0.9em;
     max-width:80%;
     max-height: 40%;
@@ -536,6 +512,7 @@ nav {
     font-size: 1.5em;
   }
 }
+/* define breakpoint at 900px, all pages except portfolio */
 @media (min-width:900px){
  .body {
    font-size: 1em;
@@ -548,7 +525,7 @@ nav {
     font-size: 1.7em;
   }
 }
-/* media query from CSS Grid class challenge, modified 'slightly' */
+/* modified media query from Class Challenge, Week 6. covers portfolio & contact pages*/
 @media (max-width: 400px) {
   .portfolio_gallery-item, .body-portfolio {
       max-width: 10%;
@@ -574,6 +551,7 @@ nav {
     text-align: left;
   }
 }
+/* breakpoint from 401 - 799 pixels for contact & portfolio pages */
 @media (max-width:799px) and (min-width:401px) {
   .portfolio_gallery-item, .body-portfolio {
     max-width: 20%;
@@ -598,6 +576,7 @@ nav.nav-nohamburger {
   text-align: left;
 }
 }
+/* define breakpoint for 800 - 100 pixels for portfolio.html & contact.html */
 @media (min-width:800px) and (max-width:1000px){
   .portfolio_gallery-item, .body-portfolio {
     max-width: 40%;
@@ -640,6 +619,7 @@ nav.nav-nohamburger {
   text-align: left;
 }
 }
+/* breakpoint for contact.html */
 @media (min-width:1001px) {
   .container_contact {
     max-height: 400px;
