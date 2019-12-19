@@ -26,7 +26,7 @@
     .grid_row_4 { grid-area: 4 / 1 / 5 / 2; } 
     .grid_row_5 { grid-area: 5 / 1 / 6 / 2; } 
 /* end grid generator */
-.body-portfolio { /*experimental for media query */
+.body-portfolio { /*experimental for media query - extra breakpoints on portfolio page */
   margin: 0;
   padding: 0;
   background-color: #151d32;
@@ -586,38 +586,36 @@ nav.nav-nohamburger {
   .container_portfolio, h1.h1-portfolio {
     text-align: left;
     margin-left: 2em;
-}
-nav.nav-nohamburger {
+  }
+  nav.nav-nohamburger {
   text-align: left;
   font-size: 0.9em;
-}
-.portfolio_text {
+  }
+  .portfolio_text {
     font-size: 2.5em;
-}
-.container_contact {
+  }
+  .container_contact {
   max-height: 300px;
-}
-.contact_form {
+  }
+  .contact_form {
   display: grid;
   grid-template-columns: 1fr 2fr;
-}
-.contact_form > * {
+  }
+  .contact_form > * {
   padding: 2em;
-}
-.company-info {
+  }
+  .company-info {
   border-radius: 4px 0 0 4px;
-}
-.contact {
+  }
+  .contact {
   border-radius: 0 4px 4px 0;
-}
-.company-info h3,
-.company-info ul,
-.brand {
+  }
+  .company-info h3, .company-info ul, .brand {
   text-align: left;
-}
-.footer {
+  }
+  .footer {
   text-align: left;
-}
+  }
 }
 /* breakpoint for contact.html */
 @media (min-width:1001px) {
@@ -638,9 +636,7 @@ nav.nav-nohamburger {
   .contact {
     border-radius: 0 4px 4px 0;
   }
-  .company-info h3,
-  .company-info ul,
-  .h1-contact {
+  .company-info h3, .company-info ul, .h1-contact {
     text-align: left;
   }
 }
