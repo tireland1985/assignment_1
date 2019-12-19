@@ -10,13 +10,13 @@
   /* https://cssgrid-generator.netlify.com/ */
   /* CSS Grid for index.html */
   /* <div>'s are intentionally named differently for per-page styling/ layout alterations */
-  /* specifically allowed for altering the height of certain rows without changing the layout of other pages in unwanted ways */
+  /* specifically allowed for altering the height of certain grid rows without changing the layout of other pages in unwanted ways */
   .container_grid_rows { 
     display: grid; 
     grid-template-columns: 1fr; 
     grid-template-rows: repeat(5, 1fr); 
     grid-column-gap: 0px;
-    grid-row-gap: 2px; 
+    row-gap: 2px;
     color: #B9B9B9;
     text-align: center;
     }
