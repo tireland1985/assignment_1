@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: #151d32;
-  background-image:  linear-gradient(90deg, rgba(21, 29, 50, 0.9), rgba(74, 102, 175, 0.7));
+  background-image:  linear-gradient(90deg, rgb(21, 29, 50), rgba(74, 103, 175, 0.342));
   color: #B9B9B9;
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
