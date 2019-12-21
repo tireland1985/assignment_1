@@ -44,29 +44,6 @@
   text-align: center;
   font-size: 3em;
 }
-/* alternate nav bar - problems with hamburger on portfolio page */
-/*.nav-nohamburger {
-  margin: auto;
-  text-align: center;
-}
-.ul-nav {
-  overflow: auto;
-    list-style-type: none;
-    white-space: nowrap;
-    display: block;
-}
-.li-nav {
-  height: 25px;
-  margin-right: auto;
-  display: inline-block;
-  border-right: 1px solid #aaa;
-  font-size: 1.45em;
-  padding: 0 20px;
-}
-.li-nav:last-child {
-  border-right: none;
-}*/
-/* end alternate nav */
 .hr-portfolio {
   margin-top: 1rem;
   margin-bottom: 1rem;
