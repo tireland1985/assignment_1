@@ -522,7 +522,7 @@ nav {
     font-size: 1.7em;
   }
 }
-/* modified media query from Class Challenge, Week 6. covers portfolio & contact pages*/
+/* modified media query from Class Challenge, Week 6. currently covers portfolio & contact pages */
 @media (max-width: 400px) {
   .portfolio_gallery-item, .body-portfolio {
       max-width: 10%;
