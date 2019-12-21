@@ -34,7 +34,7 @@
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
   font-size: 60%;
-}
+} /* portfolio class code */
 .container_portfolio {
   width: 96rem;
   margin: 2rem auto;
@@ -102,7 +102,7 @@
 .portfolio_middle {
   transition: .5s ease;
   opacity: 0;
-  position: absolute;
+  position: absolute; /* not mine.. */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -126,7 +126,7 @@
   font-size: 2.5em;
   padding: 16px 32px;
 }
-
+/* end portfolio class code */
 .container_cv {
   /* cssgrid-generator.netlify.com */
   /* CSS Grid for cv.html */
