@@ -382,7 +382,7 @@
  */
 #menu
 {
-  position: absolute; /* I know brief says no absolute positioning, but havent found a hamburger nav that doesnt  use it.. -tim */
+  position: absolute; /* doesnt work without this */
   width: 100px;
   margin: -100px 0 0 -50px;
   padding: 50px;
