@@ -467,7 +467,7 @@ nav {
   }
  
   a:hover {
-    color: rgb(110, 110, 110);
+    color: rgb(121, 121, 121);
   }
 
   .active { /* styling for "active link" in navigation (current page) */
