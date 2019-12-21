@@ -33,7 +33,7 @@
   background-image:  linear-gradient(90deg, rgba(30, 21, 50, 0.904), rgba(96, 130, 225, 0.747));  color: #B9B9B9;
   font-family: 'Big Shoulders Text', cursive;
   letter-spacing: 0.1em;
-  font-size: 60%;
+  /*font-size: 60%;*/
 } /* portfolio class code */
 .container_portfolio {
   width: 96rem;
@@ -45,7 +45,7 @@
   font-size: 3em;
 }
 /* alternate nav bar - problems with hamburger on portfolio page */
-.nav-nohamburger {
+/*.nav-nohamburger {
   margin: auto;
   text-align: center;
 }
@@ -65,13 +65,15 @@
 }
 .li-nav:last-child {
   border-right: none;
-}
+}*/
 /* end alternate nav */
 .hr-portfolio {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 5em;
   border: 0;
   border-top: 2px solid rgba(236, 113, 12, 0.26);
+
 }
 .portfolio_gallery-item {
   max-width: 100%;
@@ -80,6 +82,7 @@
   transition: all .3s;
   overflow: hidden;
   position: relative;
+  left: 5em;
 }
 
 .portfolio_gallery {
@@ -102,8 +105,8 @@
 .portfolio_middle {
   transition: .5s ease;
   opacity: 0;
-  position: absolute; /* not mine.. */
-  top: 50%;
+  position: relative; /* modified from original value of absolute */
+  top: -25%; /* reduced from original value of 50%, necessary due to change above */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -382,7 +385,7 @@
  */
 #menu
 {
-  position: fixed; /* doesnt work without this */
+  position: fixed; /* altered from original absolute */
   width: 100px;
   margin: -100px 0 0 -50px;
   padding: 50px;
@@ -403,6 +406,7 @@
 {
   padding: 10px 0;
   font-size: 1.2em;
+  text-align: center;
 }
 
 /*
