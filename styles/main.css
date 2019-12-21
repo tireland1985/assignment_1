@@ -277,7 +277,7 @@
 #menuToggle
 {
   display: block;
-  position: relative;
+  position: static; /* attempting to remove absolute positioning -tim */
   top: 50px;
   left: 50px;
   
@@ -305,7 +305,7 @@
   display: block;
   width: 40px;
   height: 32px;
-  position: absolute; /* cant change, tried but menu stops working  -tim */
+  position: fixed; /* attempting to remove absolute positioning  -tim*/
   top: -7px;
   left: -5px;
   
@@ -325,7 +325,7 @@
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  position: relative;
+  position: static; /* original codepen used absolute/relative positioning. attempting to fix -tim*/
   
   background: #cdcdcd;
   border-radius: 3px;
@@ -382,7 +382,7 @@
  */
 #menu
 {
-  position: absolute; /* doesnt work without this */
+  position: fixed; /* doesnt work without this */
   width: 100px;
   margin: -100px 0 0 -50px;
   padding: 50px;
