@@ -148,7 +148,7 @@
   font-size: 1.4em;
 }
 .h4-cv {
-  font-weight: 150;
+  font-weight: 100;
   
 }
 .cv_text { /* cv.html text-styling */
@@ -219,7 +219,7 @@
 .contact_me form textarea {
   width: 100%;
   padding: 1em;
-  border: solid 1px #627EDC;
+  border: solid 1px rgb(90, 122, 230);
   border-radius: 4px;
 }
 
@@ -264,7 +264,7 @@
   
   z-index: 1;
   
-  -webkit-user-select: none;
+/*  -webkit-user-select: none; */
   user-select: none;
 }
 
@@ -295,7 +295,7 @@
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
   
-  -webkit-touch-callout: none;
+ /* -webkit-touch-callout: none;*/
 }
 /*
  * Just a quick hamburger
@@ -371,7 +371,7 @@
   
   background: #151D32;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;*/
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
