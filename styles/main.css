@@ -464,6 +464,9 @@ nav {
 .footer {
   text-align: center;  
 }
+.disclaimer {
+  text-align: center;
+  font-size: 0.4em;
 /* media queries for responsive design */
 @media (min-width:1px) and (max-width:499px) {
   .body {
